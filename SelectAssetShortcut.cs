@@ -10,14 +10,14 @@ using UnityEngine;
  * 
  * How to Use:
  * - Select a GameObject in the Hierarchy.
- * - Press the shortcut keys (Ctrl + Alt + Shift + S).
+ * - Press the shortcut keys (Ctrl + Alt + Shift + A).
  * - The corresponding Prefab asset will be highlighted in the Project window.
  * 
  * Created for improving workflow efficiency.
  */
 public class SelectAssetShortcut
 {
-    [MenuItem("Assets/Select Prefab Asset %#&s")] // Ctrl+ Alt + Shift + S Hotkey
+    [MenuItem("Assets/Select Prefab Asset %#&aa")] // Ctrl+ Alt + Shift + A Hotkey
     static void SelectPrefabAsset()
     {
         if (Selection.activeGameObject != null)
