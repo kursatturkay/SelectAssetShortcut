@@ -8,7 +8,7 @@ This script adds a custom Unity Editor shortcut for selecting the Prefab asset o
 
 ## Usage
 1. Select a GameObject in the Hierarchy.
-2. Use the shortcut **Ctrl + Alt + Shift + S**.
+2. Use the shortcut **Ctrl + Alt + Shift + A**.
 3. The corresponding Prefab asset will be highlighted in the Project window.
 
 ## Notes
